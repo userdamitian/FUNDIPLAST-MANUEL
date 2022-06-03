@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>FUNDIPLAST</title>
+    <link href="assets/images/logo.png" rel="icon">
+
+
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,700,900,500' rel='stylesheet' type='text/css'>
+
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body class="top-navigation">
+    <div id="master-wrapper" class="img-responsive">
+
+        <div id="nav-menu" class="nav-wrapper smoothie">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <a class="logo" href="index.html"><img style="width: 170px; height: auto;" alt="" class="img-responsive" src="assets/images/logo.png"></a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                    </button>
+                    <div class="col-xs-10">
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html" class="page-scroll">¿Quienes Somos?</a></li>
+                                <li><a href="acerca-nosotros.html" class="page-scroll">Acerca de Nosotros</a></li>
+                                <li><a href="servicios.html" class="page-scroll">Servicios</a></li>
+                                <li><a href="productos.html" class="page-scroll">Productos</a></li>
+                                <li><a href="contacto.html" class="page-scroll">Contactos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header id="contactanos" class="fullheight" class="img-responsive">
+            <div>
+                <div class="container fullheight">
+                    <div class="jumbotron">
+                        <h1 id="titulo-1">Contáctanos</h1>
+                    </div>
+                    <h1 id="titulo1-1">Ponerse En Contacto</h1>
+                    <p id="subtitulo-1-1">
+                        Póngase en contacto con nosotros en el distribuidor de Fundiplast para <br> más Información.
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <section id="contact-us">
+            <div id="footwrap">
+                <div class="container">
+                    <div class="row">
+                        <br>
+                        <div class="col-lg-6">
+                            <p id="con">MANDANOS UN MENSAJE
+                            </p>
+                            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+                                <div class="form-group">
+                                    <label for="contact-name">Ingrese su Nombre y Apellido</label>
+                                    <input type="name" name="name" class="form-control" id="contact-name" placeholder="Ingrese su Nombre y Apellido" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres.">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Ingrese su Email</label>
+                                    <input type="email" name="email" class="form-control" id="contact-email" placeholder="Ingrese su Email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida.">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-subject">Ingrese el Asunto</label>
+                                    <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Ingrese el Asunto" data-rule="minlen:4" data-msg="Ingrese al menos 8 caracteres de asunto.">
+                                    <div class="validate"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact-message">Ingrese su Mensaje</label>
+                                    <textarea class="form-control" name="message" id="contact-message" placeholder="Ingrese su Mensaje" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros."></textarea>
+                                    <div class="validate"></div>
+                                </div>
+
+                                <div class="loading"></div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+
+                                <div class="form-send">
+                                    <button type="submit">ENVIAR MENSAJE</button>
+                                </div>
+
+                            </form>
+                            <br>
+                        </div>
+                        <div class="col-lg-6" id="redes-pri" style="background-color: #f1f1f1;">
+                            <p> <br>
+                            </p>
+                            <p>
+                                <t><img style="width: 45px; height: 40px;" src="assets/images/ubicacion.png"></img>
+                                </t>
+                                <t id="color">Ubicación</t>
+                                <br> Francisco Vida & 24 de Enero Barrio Manantial, Ponce Enriquez.
+                                <br/> Av. Del Ejercito y Sucre El Guabo, Ecuador
+                            </p>
+                            <br>
+                            <h1 id="titulo1" style="color: #000; font-size: 30px;">Contactos</h1>
+                            <br>
+                            <div class="col-lg-6">
+                                <p>
+                                    <t><img src="assets/images/telefono.png" style="width: 35px; height: 25px;">
+                                    </t>
+                                    <t id="color">Número Telefónico</t><br/> +593 98 917 5860 <br/>
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>
+                                    <t><img src="assets/images/reloj.png" style="width: 45px; height: 25px;"></img>
+                                    </t>
+                                    <t id="color">Horario de Atención</t><br/>Lunes a Sábado <br> 7:00-19:00 <br> Domingos 7:00-17:00 <br/>
+                                </p>
+                            </div>
+                            <br>
+                            <p id="posi">
+                                <t id="color">Siganos En Nuestras Redes Sociales</t><br/>
+                                <a href="https://www.facebook.com/FundiplastManuel"><img id="face" src="assets/images/facebook.png"></a>
+                                <a href="https://wa.me/c/593989175860"><img id="what" src="assets/images/wha.jpeg"></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vistita">
+            <div class="mapa" style="text-align: center;">
+                <div id="local">
+                    <p>
+                        <center>
+                            <h1 style="font-size: 25px;"><b>Visitenos en Nuestro local</b></h1>
+                        </center>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d63736.645209368085!2d-79.83844998169202!3d-3.2146116030540366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-3.2142899999999996!2d-79.79885!5e0!3m2!1ses-419!2sec!4v1650909249074!5m2!1ses-419!2sec"
+                        width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d63734.6358532277!2d-79.86902478163518!3d-3.2466133998162503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x903310d5f59d7f59%3A0xe12b778e79216fdb!2sAv.%20El%20Ej%C3%A9rcito%20%26%20Sucre%2C%20El%20Guabo!3m2!1d-3.2466996999999997!2d-79.83400499999999!5e0!3m2!1ses-419!2sec!4v1650909441576!5m2!1ses-419!2sec"
+                        width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="dark">
+            <div class="container">
+                <br>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a class="logo" href="index.html"><img id="logo" class="log img-responsive" src="assets/images/logo.png"></a>
+                        <t id="fin-le-info">
+                            <br> Visita nuestros servicios de atención
+                            <br>
+                            <a href="https://www.facebook.com/FundiplastManuel"><i class="fa fa-facebook" style="color: #fff;"></i></a>
+                            <a href="https://wa.me/c/593989175860"><i class="fa fa-whatsapp" style="color: #fff;"></i></a>
+                        </t>
+                    </div>
+                    <div class="col-xs-3">
+                        <t id="fin-le">
+                            Información
+                            <br>
+                        </t>
+                        <t id="fin-le-info">
+                            <a class="logo" href="index.html" style="color: #fff;">¿Quiénes somos?</a>
+                            <br> <a class="logo" href="acerca-nosotros.html" style="color: #fff;">Acerca de nosotros</a>
+                            <br> <a class="logo" href="servicios.html" style="color: #fff;">Servicios</a>
+                            <br>
+                            <a class="logo" href="#contact-us" style="color: #fff;">Ubicación</a>
+                        </t>
+                    </div>
+                    <div class="col-xs-3">
+                        <t id="fin-le">
+                            Categorias
+                            <br>
+                        </t>
+                        <t id="fin-le-info">
+                            <a class="logo" href="platos-contenedores.html" style="color: #fff;">Platos plásticos</a>
+                            <br>
+                            <a class="logo" href="distribuidora-de-plasticos.html" style="color: #fff;">Cuchara plásticas</a>
+                            <br>
+                            <a class="logo" href="distribuidora-de-plasticos.html" style="color: #fff;">Vasos plásticos</a>
+                            <br> Industria
+                        </t>
+                    </div>
+                    <div class="col-xs-3">
+                        <t id="fin-le">
+                            Contáctos
+                            <br>
+                        </t>
+                        <t id="fin-le-info">
+
+                            Francisco Vida & 24 de Enero
+                            <br> Barrio Manantial, Ponce
+                            <br> Enríquez, Ecuador
+                            <br> Av. Ejercito y Sucre
+                            <br> El Guabo, Ecuador
+                            <br> 09809175860
+                            <br> +593 98 917 5860
+                        </t>
+                    </div>
+                </div>
+            </div>
+
+            <div id="copyrights">
+                <div class="container">
+                    <p>
+                        &copy; Copyrights <strong>FUNDIPLASTIC</strong>. All Rights Reserved
+                    </p>
+                    <div class="credits">
+                        Created with FUNDIPLASTIC template by <a href="#">FUNDIPLASTIC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/php-mail-form/validate.js"></script>
+    <script src="lib/chart/chart.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

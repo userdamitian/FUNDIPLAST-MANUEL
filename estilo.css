@@ -1,0 +1,391 @@
+#par {
+    text-align: justify;
+}
+
+#dis {
+    background-color: #E9E5E2;
+}
+
+
+/*.parent {
+    text-align: center;
+}*/
+
+#imagen {
+    width: auto;
+    left: auto;
+}
+
+#fin {
+    width: auto;
+    background: #000;
+    height: 50px;
+}
+
+#final {
+    width: auto;
+    background: #000;
+    height: 350px;
+}
+
+#fin-le {
+    color: #e35f20;
+    font-weight: bold;
+    /*font-size: 25px;*/
+}
+
+#fin-le-info {
+    color: #fff;
+}
+
+#contac {
+    background-image: url(assets/images/contacto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flecha {
+    float: left;
+    position: relative;
+    height: 80px;
+    width: 240px;
+    border: solid 1px #ccc;
+    border-right: none;
+    background: #eee linear-gradient(white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);
+}
+
+.flecha:after {
+    position: absolute;
+    top: 16px;
+    right: -25px;
+    width: 48px;
+    height: 47px;
+    border-left: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+    background: #eee linear-gradient(45deg, white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);
+    content: '';
+}
+
+#limpiar {
+    height: 40px;
+}
+
+#bordes {
+    border-top: #e35f20 5px solid;
+    border-bottom: #e35f20 5px solid;
+    border-left: #e35f20 5px solid;
+    border-right: #e35f20 5px solid;
+    height: 428px;
+    width: 440px;
+    position: relative;
+    left: 70px;
+}
+
+#bordes-2 {
+    border-top: #e35f20 5px solid;
+    border-bottom: #e35f20 5px solid;
+    border-left: #e35f20 5px solid;
+    border-right: #e35f20 5px solid;
+    height: 210px;
+    width: 460px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+#bordes-3 {
+    border-top: #e35f20 5px solid;
+    border-bottom: #e35f20 5px solid;
+    border-left: #e35f20 5px solid;
+    border-right: #e35f20 5px solid;
+    width: 460px;
+    height: 360px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+#bordes-quines-somos-1 {
+    border-top: #e35f20 5px solid;
+    border-bottom: #e35f20 5px solid;
+    border-left: #e35f20 5px solid;
+    border-right: #e35f20 5px solid;
+    width: 500px;
+    height: 650px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+#quines-somos-1 {
+    width: 490px;
+    height: 600px;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    right: 40px;
+}
+
+#bordes-inicio-1 {
+    border-top: #e35f20 5px solid;
+    border-bottom: #e35f20 5px solid;
+    border-left: #e35f20 5px solid;
+    border-right: #e35f20 5px solid;
+    height: 1000px;
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
+
+#bordes-inicio-2 {
+    height: 200px;
+    width: 590px;
+    position: relative;
+    left: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#bordes-inicio-3 {
+    height: 320px;
+    width: 590px;
+    position: relative;
+    left: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#bordes-inicio-4 {
+    height: 320px;
+    width: 590px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#bordes-inicio-5 {
+    height: 350px;
+    width: 599px;
+    position: relative;
+    top: 5px;
+    left: -30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#inicio-1 {
+    width: 530px;
+    height: 400px;
+    position: relative;
+    top: 260px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    right: 80px;
+}
+
+#inicio-2 {
+    width: 270px;
+    height: 130px;
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+#inicio-3 {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+#inicio-4 {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: -30px;
+    top: 6px;
+}
+
+#con {
+    width: 100%;
+    position: relative;
+    left: -40px;
+}
+
+#inicio-5 {
+    width: 260px;
+    height: 150px;
+    position: relative;
+    left: 0px;
+    top: 60px;
+}
+
+#inicio1 {
+    width: 500px;
+    height: 430px;
+}
+
+#inicio2 {
+    width: 390px;
+    height: 430px;
+}
+
+#inicio3 {
+    width: 370px;
+    height: 430px;
+}
+
+#inicio4 {
+    width: 700px;
+    height: 430px;
+}
+
+#inicio5 {
+    width: 330px;
+    height: 430px;
+}
+
+#inicio6 {
+    width: 570px;
+    height: 430px;
+}
+
+#producto-1 {
+    width: 430px;
+    height: 400px;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    right: 40px;
+}
+
+#producto-2 {
+    width: 460px;
+    height: 180px;
+    position: relative;
+    top: -20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    right: 40px;
+}
+
+#producto-3 {
+    width: 430px;
+    height: 310px;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    right: 40px;
+}
+
+#contenido-inicio {
+    position: relative;
+    left: 320px;
+    top: -100px;
+    height: 258px;
+    width: 300px;
+}
+
+#contenido-inicio-3 {
+    position: relative;
+    left: 270px;
+    top: -130px;
+    height: 258px;
+    width: 300px;
+}
+
+#contenido-inicio-4 {
+    position: relative;
+    left: 270px;
+    top: -199px;
+    height: 258px;
+    width: 300px;
+}
+
+#contenido-inicio-5 {
+    position: relative;
+    left: 280px;
+    top: -120px;
+    height: 258px;
+    width: 300px;
+}
+
+#contenido {
+    background: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -240px;
+    left: 40px;
+    height: 258px;
+    width: 370px;
+}
+
+#contenido2 {
+    background: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -140px;
+    left: 10px;
+    height: 160px;
+    width: 430px;
+}
+
+#contenido3 {
+    background: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -180px;
+    left: 0px;
+    height: 220px;
+    width: 430px;
+}
+
+#contenido-1 {
+    position: inherit;
+    top: 20px;
+    left: 20px;
+}
+
+#contenido-2 {
+    position: inherit;
+    top: 20px;
+    left: 20px;
+}
+
+#contenido-3 {
+    position: inherit;
+    top: 20px;
+    left: 20px;
+}
+
+#producto-1-1 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 30px;
+}
+
+#contenido-1-1 {
+    position: relative;
+    top: 5 px;
+}
+
+#catalogo-1,
+#catalogo-2,
+#catalogo-3 {
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#catalogo-3,
+#catalogo-2 {
+    position: relative;
+    top: -80px;
+}
+
+#platos-contenedores-2 {
+    width: 520px;
+    height: 510px;
+    position: relative;
+    top: -80px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
